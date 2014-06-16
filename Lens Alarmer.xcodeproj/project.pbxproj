@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81E021D1921CD47001CF313 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81E021C1921CD47001CF313 /* SetViewController.m */; };
+		D836E830194EBF6100153DA4 /* se_maoudamashii_se_pc01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D836E82F194EBF6100153DA4 /* se_maoudamashii_se_pc01.mp3 */; };
 		D8559A55191A3ADF00E57EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8559A54191A3ADF00E57EDA /* Foundation.framework */; };
 		D8559A57191A3ADF00E57EDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8559A56191A3ADF00E57EDA /* CoreGraphics.framework */; };
 		D8559A59191A3ADF00E57EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8559A58191A3ADF00E57EDA /* UIKit.framework */; };
@@ -21,6 +23,16 @@
 		D8559A76191A3ADF00E57EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8559A58191A3ADF00E57EDA /* UIKit.framework */; };
 		D8559A7E191A3ADF00E57EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8559A7C191A3ADF00E57EDA /* InfoPlist.strings */; };
 		D8559A80191A3ADF00E57EDA /* StopWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8559A7F191A3ADF00E57EDA /* StopWatchTests.m */; };
+		D8586026191C6A5400429E06 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D8586025191C6A5400429E06 /* ViewController2.m */; };
+		D8678D9F19371D63001C067B /* 3_5_inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8678D9E19371D63001C067B /* 3_5_inch.storyboard */; };
+		D8757B491946E1700035BACE /* CustomCellOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8757B481946E1700035BACE /* CustomCellOneViewController.m */; };
+		D876BCF6193309E6004E189A /* alarm_clock-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D876BCF5193309E6004E189A /* alarm_clock-25.png */; };
+		D876BCF819330B95004E189A /* folder-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D876BCF719330B95004E189A /* folder-25.png */; };
+		D876BCFA19330BD3004E189A /* folder-2512.png in Resources */ = {isa = PBXBuildFile; fileRef = D876BCF919330BD3004E189A /* folder-2512.png */; };
+		D876BCFC19330BF1004E189A /* folder_filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D876BCFB19330BF1004E189A /* folder_filled-25.png */; };
+		D876BD0619331F22004E189A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D876BD0519331F22004E189A /* AudioToolbox.framework */; };
+		D8DF0337194EBE9700BA83D8 /* alarm_clock-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D8DF0335194EBE9700BA83D8 /* alarm_clock-32.png */; };
+		D8DF0338194EBE9700BA83D8 /* folder-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D8DF0336194EBE9700BA83D8 /* folder-32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +46,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8559A51191A3ADF00E57EDA /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81E021B1921CD47001CF313 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		D81E021C1921CD47001CF313 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		D836E82F194EBF6100153DA4 /* se_maoudamashii_se_pc01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_maoudamashii_se_pc01.mp3; sourceTree = "<group>"; };
+		D8559A51191A3ADF00E57EDA /* Lens Alarmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lens Alarmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8559A54191A3ADF00E57EDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8559A56191A3ADF00E57EDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D8559A58191A3ADF00E57EDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D8559A5C191A3ADF00E57EDA /* StopWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StopWatch-Info.plist"; sourceTree = "<group>"; };
+		D8559A5C191A3ADF00E57EDA /* Lens Alarmer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lens Alarmer-Info.plist"; sourceTree = "<group>"; };
 		D8559A5E191A3ADF00E57EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8559A60191A3ADF00E57EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8559A62191A3ADF00E57EDA /* StopWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StopWatch-Prefix.pch"; sourceTree = "<group>"; };
+		D8559A62191A3ADF00E57EDA /* Lens Alarmer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lens Alarmer-Prefix.pch"; sourceTree = "<group>"; };
 		D8559A63191A3ADF00E57EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8559A64191A3ADF00E57EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8559A67191A3ADF00E57EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8559A69191A3ADF00E57EDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D8559A6A191A3ADF00E57EDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8559A6C191A3ADF00E57EDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D8559A72191A3ADF00E57EDA /* StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8559A72191A3ADF00E57EDA /* Lens AlarmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lens AlarmerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8559A73191A3ADF00E57EDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D8559A7B191A3ADF00E57EDA /* StopWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StopWatchTests-Info.plist"; sourceTree = "<group>"; };
+		D8559A7B191A3ADF00E57EDA /* Lens AlarmerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lens AlarmerTests-Info.plist"; sourceTree = "<group>"; };
 		D8559A7D191A3ADF00E57EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8559A7F191A3ADF00E57EDA /* StopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopWatchTests.m; sourceTree = "<group>"; };
+		D8586024191C6A5400429E06 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		D8586025191C6A5400429E06 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		D8678D9E19371D63001C067B /* 3_5_inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3_5_inch.storyboard; sourceTree = "<group>"; };
+		D8757B471946E1700035BACE /* CustomCellOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellOneViewController.h; sourceTree = "<group>"; };
+		D8757B481946E1700035BACE /* CustomCellOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellOneViewController.m; sourceTree = "<group>"; };
+		D876BCF5193309E6004E189A /* alarm_clock-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm_clock-25.png"; sourceTree = "<group>"; };
+		D876BCF719330B95004E189A /* folder-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-25.png"; sourceTree = "<group>"; };
+		D876BCF919330BD3004E189A /* folder-2512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-2512.png"; sourceTree = "<group>"; };
+		D876BCFB19330BF1004E189A /* folder_filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder_filled-25.png"; sourceTree = "<group>"; };
+		D876BD0519331F22004E189A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8DF0335194EBE9700BA83D8 /* alarm_clock-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alarm_clock-32.png"; path = "images/alarm_clock-32.png"; sourceTree = "<group>"; };
+		D8DF0336194EBE9700BA83D8 /* folder-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "folder-32.png"; path = "images/folder-32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D876BD0619331F22004E189A /* AudioToolbox.framework in Frameworks */,
 				D8559A57191A3ADF00E57EDA /* CoreGraphics.framework in Frameworks */,
 				D8559A59191A3ADF00E57EDA /* UIKit.framework in Frameworks */,
 				D8559A55191A3ADF00E57EDA /* Foundation.framework in Frameworks */,
@@ -79,6 +107,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D81E020819210222001CF313 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D81E021B1921CD47001CF313 /* SetViewController.h */,
+				D81E021C1921CD47001CF313 /* SetViewController.m */,
+				D8757B471946E1700035BACE /* CustomCellOneViewController.h */,
+				D8757B481946E1700035BACE /* CustomCellOneViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		D81E02091921025B001CF313 /* StockManage */ = {
+			isa = PBXGroup;
+			children = (
+				D8586024191C6A5400429E06 /* ViewController2.h */,
+				D8586025191C6A5400429E06 /* ViewController2.m */,
+			);
+			name = StockManage;
+			sourceTree = "<group>";
+		};
+		D81E020A1921029D001CF313 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				D8559A69191A3ADF00E57EDA /* ViewController.h */,
+				D8559A6A191A3ADF00E57EDA /* ViewController.m */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
 		D8559A48191A3ADF00E57EDA = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +149,8 @@
 		D8559A52191A3ADF00E57EDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8559A51191A3ADF00E57EDA /* StopWatch.app */,
-				D8559A72191A3ADF00E57EDA /* StopWatchTests.xctest */,
+				D8559A51191A3ADF00E57EDA /* Lens Alarmer.app */,
+				D8559A72191A3ADF00E57EDA /* Lens AlarmerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +158,7 @@
 		D8559A53191A3ADF00E57EDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D876BD0519331F22004E189A /* AudioToolbox.framework */,
 				D8559A54191A3ADF00E57EDA /* Foundation.framework */,
 				D8559A56191A3ADF00E57EDA /* CoreGraphics.framework */,
 				D8559A58191A3ADF00E57EDA /* UIKit.framework */,
@@ -115,8 +173,10 @@
 				D8559A63191A3ADF00E57EDA /* AppDelegate.h */,
 				D8559A64191A3ADF00E57EDA /* AppDelegate.m */,
 				D8559A66191A3ADF00E57EDA /* Main.storyboard */,
-				D8559A69191A3ADF00E57EDA /* ViewController.h */,
-				D8559A6A191A3ADF00E57EDA /* ViewController.m */,
+				D8678D9E19371D63001C067B /* 3_5_inch.storyboard */,
+				D81E020A1921029D001CF313 /* Timer */,
+				D81E02091921025B001CF313 /* StockManage */,
+				D81E020819210222001CF313 /* Setting */,
 				D8559A6C191A3ADF00E57EDA /* Images.xcassets */,
 				D8559A5B191A3ADF00E57EDA /* Supporting Files */,
 			);
@@ -126,10 +186,13 @@
 		D8559A5B191A3ADF00E57EDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8559A5C191A3ADF00E57EDA /* StopWatch-Info.plist */,
+				D8559A5C191A3ADF00E57EDA /* Lens Alarmer-Info.plist */,
 				D8559A5D191A3ADF00E57EDA /* InfoPlist.strings */,
+				D8DF0335194EBE9700BA83D8 /* alarm_clock-32.png */,
+				D8DF0336194EBE9700BA83D8 /* folder-32.png */,
+				D836E82F194EBF6100153DA4 /* se_maoudamashii_se_pc01.mp3 */,
 				D8559A60191A3ADF00E57EDA /* main.m */,
-				D8559A62191A3ADF00E57EDA /* StopWatch-Prefix.pch */,
+				D8559A62191A3ADF00E57EDA /* Lens Alarmer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +209,11 @@
 		D8559A7A191A3ADF00E57EDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8559A7B191A3ADF00E57EDA /* StopWatchTests-Info.plist */,
+				D876BCF5193309E6004E189A /* alarm_clock-25.png */,
+				D876BCF919330BD3004E189A /* folder-2512.png */,
+				D876BCFB19330BF1004E189A /* folder_filled-25.png */,
+				D876BCF719330B95004E189A /* folder-25.png */,
+				D8559A7B191A3ADF00E57EDA /* Lens AlarmerTests-Info.plist */,
 				D8559A7C191A3ADF00E57EDA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8559A50191A3ADF00E57EDA /* StopWatch */ = {
+		D8559A50191A3ADF00E57EDA /* Lens Alarmer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8559A83191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "StopWatch" */;
+			buildConfigurationList = D8559A83191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "Lens Alarmer" */;
 			buildPhases = (
 				D8559A4D191A3ADF00E57EDA /* Sources */,
 				D8559A4E191A3ADF00E57EDA /* Frameworks */,
@@ -167,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = StopWatch;
+			name = "Lens Alarmer";
 			productName = StopWatch;
-			productReference = D8559A51191A3ADF00E57EDA /* StopWatch.app */;
+			productReference = D8559A51191A3ADF00E57EDA /* Lens Alarmer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8559A71191A3ADF00E57EDA /* StopWatchTests */ = {
+		D8559A71191A3ADF00E57EDA /* Lens AlarmerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8559A86191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "StopWatchTests" */;
+			buildConfigurationList = D8559A86191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "Lens AlarmerTests" */;
 			buildPhases = (
 				D8559A6E191A3ADF00E57EDA /* Sources */,
 				D8559A6F191A3ADF00E57EDA /* Frameworks */,
@@ -185,9 +252,9 @@
 			dependencies = (
 				D8559A78191A3ADF00E57EDA /* PBXTargetDependency */,
 			);
-			name = StopWatchTests;
+			name = "Lens AlarmerTests";
 			productName = StopWatchTests;
-			productReference = D8559A72191A3ADF00E57EDA /* StopWatchTests.xctest */;
+			productReference = D8559A72191A3ADF00E57EDA /* Lens AlarmerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8559A4C191A3ADF00E57EDA /* Build configuration list for PBXProject "StopWatch" */;
+			buildConfigurationList = D8559A4C191A3ADF00E57EDA /* Build configuration list for PBXProject "Lens Alarmer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +284,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8559A50191A3ADF00E57EDA /* StopWatch */,
-				D8559A71191A3ADF00E57EDA /* StopWatchTests */,
+				D8559A50191A3ADF00E57EDA /* Lens Alarmer */,
+				D8559A71191A3ADF00E57EDA /* Lens AlarmerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8559A6D191A3ADF00E57EDA /* Images.xcassets in Resources */,
+				D8DF0338194EBE9700BA83D8 /* folder-32.png in Resources */,
+				D8678D9F19371D63001C067B /* 3_5_inch.storyboard in Resources */,
+				D836E830194EBF6100153DA4 /* se_maoudamashii_se_pc01.mp3 in Resources */,
+				D8DF0337194EBE9700BA83D8 /* alarm_clock-32.png in Resources */,
 				D8559A5F191A3ADF00E57EDA /* InfoPlist.strings in Resources */,
 				D8559A68191A3ADF00E57EDA /* Main.storyboard in Resources */,
 			);
@@ -238,7 +309,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D876BCF819330B95004E189A /* folder-25.png in Resources */,
+				D876BCFA19330BD3004E189A /* folder-2512.png in Resources */,
 				D8559A7E191A3ADF00E57EDA /* InfoPlist.strings in Resources */,
+				D876BCFC19330BF1004E189A /* folder_filled-25.png in Resources */,
+				D876BCF6193309E6004E189A /* alarm_clock-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8559A6B191A3ADF00E57EDA /* ViewController.m in Sources */,
+				D8586026191C6A5400429E06 /* ViewController2.m in Sources */,
+				D8757B491946E1700035BACE /* CustomCellOneViewController.m in Sources */,
 				D8559A65191A3ADF00E57EDA /* AppDelegate.m in Sources */,
 				D8559A61191A3ADF00E57EDA /* main.m in Sources */,
+				D81E021D1921CD47001CF313 /* SetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +346,7 @@
 /* Begin PBXTargetDependency section */
 		D8559A78191A3ADF00E57EDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8559A50191A3ADF00E57EDA /* StopWatch */;
+			target = D8559A50191A3ADF00E57EDA /* Lens Alarmer */;
 			targetProxy = D8559A77191A3ADF00E57EDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +455,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
-				INFOPLIST_FILE = "StopWatch/StopWatch-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "StopWatch/Lens Alarmer-Prefix.pch";
+				INFOPLIST_FILE = "StopWatch/Lens Alarmer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Lens Alarmer";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +469,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
-				INFOPLIST_FILE = "StopWatch/StopWatch-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "StopWatch/Lens Alarmer-Prefix.pch";
+				INFOPLIST_FILE = "StopWatch/Lens Alarmer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Lens Alarmer";
+				PROVISIONING_PROFILE = "55ED6CBA-8AAF-40C6-8CC1-57E44C623C06";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +497,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "StopWatchTests/StopWatchTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "StopWatchTests/Lens AlarmerTests-Info.plist";
+				PRODUCT_NAME = "Lens AlarmerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +515,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
-				INFOPLIST_FILE = "StopWatchTests/StopWatchTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "StopWatchTests/Lens AlarmerTests-Info.plist";
+				PRODUCT_NAME = "Lens AlarmerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8559A4C191A3ADF00E57EDA /* Build configuration list for PBXProject "StopWatch" */ = {
+		D8559A4C191A3ADF00E57EDA /* Build configuration list for PBXProject "Lens Alarmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8559A81191A3ADF00E57EDA /* Debug */,
@@ -449,21 +534,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8559A83191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
+		D8559A83191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "Lens Alarmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8559A84191A3ADF00E57EDA /* Debug */,
 				D8559A85191A3ADF00E57EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D8559A86191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "StopWatchTests" */ = {
+		D8559A86191A3ADF00E57EDA /* Build configuration list for PBXNativeTarget "Lens AlarmerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8559A87191A3ADF00E57EDA /* Debug */,
 				D8559A88191A3ADF00E57EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

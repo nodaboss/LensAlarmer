@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D8559A50191A3ADF00E57EDA"
-               BuildableName = "StopWatch.app"
-               BlueprintName = "StopWatch"
-               ReferencedContainer = "container:StopWatch.xcodeproj">
+               BuildableName = "Lens Alarmer.app"
+               BlueprintName = "Lens Alarmer"
+               ReferencedContainer = "container:Lens Alarmer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D8559A71191A3ADF00E57EDA"
-               BuildableName = "StopWatchTests.xctest"
-               BlueprintName = "StopWatchTests"
-               ReferencedContainer = "container:StopWatch.xcodeproj">
+               BuildableName = "Lens AlarmerTests.xctest"
+               BlueprintName = "Lens AlarmerTests"
+               ReferencedContainer = "container:Lens Alarmer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8559A50191A3ADF00E57EDA"
-            BuildableName = "StopWatch.app"
-            BlueprintName = "StopWatch"
-            ReferencedContainer = "container:StopWatch.xcodeproj">
+            BuildableName = "Lens Alarmer.app"
+            BlueprintName = "Lens Alarmer"
+            ReferencedContainer = "container:Lens Alarmer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8559A50191A3ADF00E57EDA"
-            BuildableName = "StopWatch.app"
-            BlueprintName = "StopWatch"
-            ReferencedContainer = "container:StopWatch.xcodeproj">
+            BuildableName = "Lens Alarmer.app"
+            BlueprintName = "Lens Alarmer"
+            ReferencedContainer = "container:Lens Alarmer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8559A50191A3ADF00E57EDA"
-            BuildableName = "StopWatch.app"
-            BlueprintName = "StopWatch"
-            ReferencedContainer = "container:StopWatch.xcodeproj">
+            BuildableName = "Lens Alarmer.app"
+            BlueprintName = "Lens Alarmer"
+            ReferencedContainer = "container:Lens Alarmer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
